@@ -8,7 +8,7 @@ public class Test1 extends TestPage {
 
 //    Simple test
 
-    @Test
+    @Test(testName = "Find in google", groups = "UI tests")
     public void test1() {
         testGoogleSearch("Macbook");
     }
