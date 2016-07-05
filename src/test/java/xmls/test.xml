@@ -2,11 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="testSuite">
-    <groups>
-        <run>
-            <include name="UI tests" />
-        </run>
-    </groups>
+
     <test name="chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
