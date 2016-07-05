@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import utils.MainClass;
 
 public class TestPage extends MainClass {
+
+//    Simple page
+
     String linkT = "Macbook, купить макбук, цена Apple Macbook";
 
     private By searchField = By.id("lst-ib");

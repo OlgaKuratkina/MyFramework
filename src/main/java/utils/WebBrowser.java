@@ -28,6 +28,7 @@ public class WebBrowser extends ReportManager {
                 browser = System.getProperty("browser");
             }
         }
+
         browserName = browser;
         if (browser.equals("firefox")) {
             driver = new FirefoxDriver();

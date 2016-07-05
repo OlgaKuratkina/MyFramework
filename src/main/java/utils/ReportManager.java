@@ -32,6 +32,7 @@ public class ReportManager {
         return testThread;
     }
 
+
     public synchronized static ExtentTest myLogger() {
         ExtentTest logger = null;
         Long threadID = Thread.currentThread().getId();

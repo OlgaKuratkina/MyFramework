@@ -22,4 +22,5 @@ public class Screenshot extends WebBrowser {
         }
         return path;
     }
+
 }
